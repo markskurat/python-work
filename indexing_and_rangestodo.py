@@ -21,6 +21,6 @@ for day in TEMPERATURE_FORECAST:
 
 # iterate through the following grades and print the student's number along with the score
 # i.e. "Student number 1 got a score of 75"
-# GRADES = [75, 88, 92, 83, 97]
-# for grade in GRADES:
-#     print("Student number " + str(GRADES.index(grade) + 1) + " got a score of " + str(grade))
+GRADES = [75, 88, 92, 83, 97]
+for grade in GRADES:
+    print("Student number " + str(GRADES.index(grade) + 1) + " got a score of " + str(grade))
